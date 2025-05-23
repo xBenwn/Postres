@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 1200px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100px;
+    align-items:end;
+}
+
+.nav > h1 {
+	font-size: 70px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+    font-size: 19px;
+}
+
+form > button {
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	color: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font: inherit;
+}
+
+.main > div > h2 {
+	font-size: 40px;
+	margin: 15px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: row;
+	width: 90%;
+	
+}
+
+a > img {
+	width: 150px;
+	height: 150px;
+}
+
+.postres {
+	background-color: lightgray;
+	width: 70%;
+	height: 170px;
+	padding: 20px;
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 20px;
+	
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: 2px gray solid;
+	border-radius: 10px;
+	width: 80%;
+	height: 70%;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.sub {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+
+.last {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.subcontent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.edit {
+	margin-top: 55px; 
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.detalle {
+	color: gray;
+}
+
+.tiempo {
+	display: flex;
+	gap: 30px;
+}
+
+.mis-btn {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	align-items: center;
+}
+
+.btn-detalle {
+	background-color: #4C6EF5; 
+  	color: white;              
+  	padding: 6px;       
+  	padding-left: 20px;
+  	padding-right: 20px; 
+ 	border: none;           
+  	border-radius: 10px;       
+  	font-weight: bold;         
+ 	text-align: center;        
+  	text-decoration: none;
+}
+.left {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.left > img {
+	width: 270px;
+	height: 270px;
+}
+
+.postre {
+	border: 2px gray solid;
+	padding: 20px;
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	width: 950px;
+}
+
+.detalles {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	height: 98%;
+}
+
+.detalles > div {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.btn-eliminar {
+	border: none;
+	background-color: red;
+	padding: 13px 50px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+/* Formularios */
+
+.form {
+	display: flex;
+	flex-direction: column;
+	border: 3px gray solid;
+	width: 400px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-right: 50px;
+	
+}
+
+.campo {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	gap: 5px;
+	padding: 10px;
+	margin: 12px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 15px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+	
+}
+
+textarea {
+	padding: 20px 15px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.error {
+    color: red;
+    width: 300px;
+}
+
+.btn-form {
+    background-color: #4C00FF;
+    border: none;
+    color: white;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 22px;
+  }
